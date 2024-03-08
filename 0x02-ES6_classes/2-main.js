@@ -16,3 +16,9 @@ try {
 } catch (err) {
     console.log(err);
 }
+
+try {
+  const course = new  HolbertonCourse("PHP", 20, ["Lucie", "Guillaume"]);
+} catch (err) {
+    console.log(err);
+}
